@@ -1,13 +1,12 @@
 
-//////////////////////////////////////
-//Logo
+/*#region Logo*/
 .logo{
     height: 3.25rem;
     margin-left:2rem;
 }
+/*#endregion*/
 
-//////////////////////////////////////
-//Search
+/*#region Search*/
 .search{
     flex: 0 0 40%;
 
@@ -60,9 +59,9 @@
         fill:var(--color-grey-dark-3);
     }
 }
+/*#endregion*/
 
-//////////////////////////////////////
-//User Navigation
+/*#region User Navigation */
 .user-nav{
     display:flex;
     align-items: center;
@@ -110,3 +109,32 @@
         margin-right: 1rem;
     }
 }
+/*#endregion*/
+
+/*#region Side Navigation */
+
+.side-nav{
+    &__item{
+
+    }
+
+    &__link{
+
+    }
+
+    &__icon{
+        width:1.75rem;
+        height:1.75rem;
+    }
+}
+
+/*#endregion*/
+
+/*#region Legal Text*/
+.legal{
+    font-size:1.2rem;
+    color:var(--color-grey-light-4);
+    text-align:center;
+    padding:2.5rem;
+}
+/*#endregion*/
